@@ -50,7 +50,7 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
-ROOT_URLCONF = 'SketchToImg.urls'
+ROOT_URLCONF = 'multiModalWeb.urls'
 
 TEMPLATES = [
     {
@@ -70,7 +70,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'SketchToImg.wsgi.application'
+WSGI_APPLICATION = 'multiModalWeb.wsgi.application'
 
 
 # Database
